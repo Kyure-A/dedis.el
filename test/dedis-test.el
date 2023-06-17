@@ -1,4 +1,4 @@
-;;; detecting-destro-test.el --- Test for detecting-destro
+;;; dedis-test.el --- Test for dedis
 
 ;; Copyright (C) 2023  Kyure_A
 
@@ -19,7 +19,7 @@
 
 ;;; Commentary:
 
-;; Test for detecting-destro
+;; Test for dedis
 
 ;;; Code:
 
@@ -31,10 +31,10 @@
             (:report-file "coverage-final.json")
             (:send-report nil))
 
-(require 'detecting-destro)
+(require 'dedis)
 
 
 
 
-(provide 'detecting-destro-test)
-;;; detecting-destro-test.el ends here
+(provide 'dedis-test)
+;;; dedis-test.el ends here
