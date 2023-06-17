@@ -1,7 +1,7 @@
 (source gnu nongnu melpa)
 
-(package (detecting-destro
-          (recipe . (:fetcher github :repo "Kyure-A/detecting-distro.el"))))
+(package (dedis
+          (recipe . (:fetcher github :repo "Kyure-A/dedis.el"))))
 
 (dev-dependency undercover)
 

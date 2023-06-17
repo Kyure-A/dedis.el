@@ -59,6 +59,5 @@
   (let* ((install-command (dedis-get-install-command)))
     (s-lex-format "${install-command} ${package}")))
 
-
 (provide 'dedis)
 ;;; dedis.el ends here
