@@ -1,0 +1,10 @@
+
+[[https://github.com/Kyure-A/detecting-distro][https://img.shields.io/github/tag/Kyure-A/detecting-distro.svg?style=flat-square]]
+[[file:LICENSE][https://img.shields.io/github/license/Kyure-A/detecting-distro.svg?style=flat-square]]
+[[https://codecov.io/gh/Kyure-A/detecting-distro?branch=master][https://img.shields.io/codecov/c/github/Kyure-A/detecting-distro.svg?style=flat-square]]
+[[https://github.com/Kyure-A/detecting-distro/actions][https://img.shields.io/github/actions/workflow/status/Kyure-A/detecting-distro/test.yml.svg?branch=master&style=flat-square]]
+* detecting-distro: detecting linux distribution
+
+* How to Use?
+* License
+  This package is licensed by GPLv3. See [[file:LICENSE][LICENSE]].
