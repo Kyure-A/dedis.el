@@ -38,6 +38,7 @@
 
 (defun dedis-get-distribution ()
   "Get Distribution."
+  (interactive)
   (s-replace " " "" (s-collapse-whitespace (s-collapse-whitespace (shell-command-to-string "echo $(. /etc/os-release && echo $NAME)")))))
 
 (defun dedis-get-install-command ()
@@ -53,7 +54,7 @@
       (setf command "dnf install"))
     command))
 
-(defun dedis-install-package (package)
+(defun dedis-get-package-install-command (package)
   "Generate install command for PACKAGE."
   (let* ((install-command (dedis-get-install-command)))
     (s-lex-format "${install-command} ${package}")))

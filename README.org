@@ -1,10 +1,10 @@
+[[https://github.com/Kyure-A/dedis][https://img.shields.io/github/tag/Kyure-A/dedis.svg?style=flat-square]]
+[[file:LICENSE][https://img.shields.io/github/license/Kyure-A/dedis.svg?style=flat-square]]
+[[https://codecov.io/gh/Kyure-A/dedis?branch=master][https://img.shields.io/codecov/c/github/Kyure-A/dedis.svg?style=flat-square]]
+[[https://github.com/Kyure-A/dedis/actions][https://img.shields.io/github/actions/workflow/status/Kyure-A/dedis/test.yml.svg?branch=master&style=flat-square]]
+* dedis: detecting linux distribution
 
-[[https://github.com/Kyure-A/detecting-distro][https://img.shields.io/github/tag/Kyure-A/detecting-distro.svg?style=flat-square]]
-[[file:LICENSE][https://img.shields.io/github/license/Kyure-A/detecting-distro.svg?style=flat-square]]
-[[https://codecov.io/gh/Kyure-A/detecting-distro?branch=master][https://img.shields.io/codecov/c/github/Kyure-A/detecting-distro.svg?style=flat-square]]
-[[https://github.com/Kyure-A/detecting-distro/actions][https://img.shields.io/github/actions/workflow/status/Kyure-A/detecting-distro/test.yml.svg?branch=master&style=flat-square]]
-* detecting-distro: detecting linux distribution
+The :ensure-system-package keyword exists in use-package or leaf to "attempt to install the specified command if the package is not installed". In this keyword, I was motivated to use the installation commands of each Linux Distribution.
 
-* How to Use?
 * License
   This package is licensed by GPLv3. See [[file:LICENSE][LICENSE]].
