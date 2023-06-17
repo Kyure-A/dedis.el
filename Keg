@@ -3,7 +3,7 @@
 (package (dedis
           (recipe . (:fetcher github :repo "Kyure-A/dedis.el"))))
 
-(dev-dependency undercover)
+(dev-dependency undercover s)
 
 (script
  (test
