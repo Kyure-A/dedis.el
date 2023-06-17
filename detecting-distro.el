@@ -1,4 +1,4 @@
-;;; detecting-destro.el --- detecting linux distribution  -*- lexical-binding: t; -*-
+;;; detecting-distro.el --- detecting linux distribution  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2023  Kyure_A
 
@@ -28,11 +28,22 @@
 
 ;;; Code:
 
-(defgroup detecting-destro ()
+(defgroup detecting-distro ()
   "detecting linux distribution"
   :group 'tools
-  :prefix "detecting-destro-"
+  :prefix "detecting-distro-"
   :link '(url-link "https://github.com/Kyure-A/detecting-distro.el"))
 
-(provide 'detecting-destro)
-;;; detecting-destro.el ends here
+(defun detecting-distro-get-distro ()
+  "Get Distro."
+  (s-replace " " "" (s-collapse-whitespace (s-collapse-whitespace (shell-command-to-string "echo $(. /etc/os-release && echo $NAME)")))))
+
+(defun detecting-distro-hoge ()
+  "Hoge Distro."
+  (when (equal (detecting-distro-get-distro) "Ubuntu")
+    "apt install")
+  (when (equal (detecting-distro-get-distro) "Arch Linux")
+    "pacman -S")
+
+  (provide 'detecting-distro)
+;;; detecting-distro.el ends here
